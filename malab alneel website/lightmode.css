@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: acumin-pro, sans-serif;
+}
+body {
+    background-color:#d3d3d3;
+    color: #494949;
+}
+
+.mnu1 {
+  position: absolute;
+  width: 140px;
+  right: 0;
+  top: 20px;
+  line-height: 50px;
+  font-size: 18px;
+}
+
+/*all pages*/
+
+#name {
+  color: #494949;
+  text-align: center;
+  font-size: 90px;
+  font-family: acumin-pro, sans-serif;
+  font-style: thinner;
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  transform: translateY(-50%);
+
+}
+
+
+#nmhdr {
+  color: #494949;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+
+#switch{
+  position: absolute;
+  width: 70px;
+  height: 25px;
+  border: none;
+  background-color: #494949;
+  color: #d3d3d3;
+  font-family: acumin-pro, sans-serif;
+  font-style: thin;
+  font-size: 15px;
+  bottom: 32px;
+  right:30px;
+}
+
+.hdr {
+  color:#494949;
+  text-align: left;
+  text-decoration: none;
+}
+
+.bhnicn {
+  max-width: 30px ;
+  max-height: auto;
+  padding-left: 30px;
+  position: sticky;
+}
+
+.insticn {
+  max-width: 30px;
+  max-height: auto;
+  vertical-align: bottom;
+  padding-left: 30px;
+  position: sticky;
+
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 35px;
+  padding-left: 10px;
+}
